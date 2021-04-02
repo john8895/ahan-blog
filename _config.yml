@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 程式阿翰部落格
 subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
+description: '每天的一小步，就是日後的一大步'
+keywords: 程式阿翰, javascript, php, 前端, 後端
+author: John Chen
+language: tw
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://john8895.github.io/ahan-blog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -102,5 +102,6 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: 'git'
-  repo: 'git@github.com:john8895/ahan-blog.git'
+  type: git
+  repo: git@github.com:john8895/ahan-blog.git
+  branch: master
