@@ -6,7 +6,7 @@
   <link href="https://www.ahan123.tw/atom.xml" rel="self"/>
   
   <link href="https://www.ahan123.tw/"/>
-  <updated>2021-04-05T14:11:30.317Z</updated>
+  <updated>2021-04-05T14:36:11.901Z</updated>
   <id>https://www.ahan123.tw/</id>
   
   <author>
@@ -21,16 +21,13 @@
     <link href="https://www.ahan123.tw/2021/04/05/Hexschool-vue-class-started/"/>
     <id>https://www.ahan123.tw/2021/04/05/Hexschool-vue-class-started/</id>
     <published>2021-04-05T00:29:38.000Z</published>
-    <updated>2021-04-05T14:11:30.317Z</updated>
+    <updated>2021-04-05T14:36:11.901Z</updated>
     
-    <content type="html"><![CDATA[<p>本欄目是紀錄我學習「六角學院」的「Vue出一個電商網站」線上課程的過程，僅包含實做電商的部分。</p><p>學習的過程用文字記錄下來，除了可以做為備忘以外，最重要的是可以藉由整理的過程，條理自己已經學到的東西，如果可以同時發表在部落格，更會因為要對別人說明而寫得清楚，對固化自己的學習內容更加有幫助。</p><p>以前我學習課程沒有紀錄筆記的習慣，後來發現面對簡單的課程沒有太大的問題，但是如果遇到比較複雜的內容，就容易記了又忘，或不停踩著已經踩過的雷，從長遠來看，不寫筆記反而才是事倍功半。</p><p>為了能夠發表在部落格上，我特地學習了 Hexo ，將部落格架設在 Github 上，並申請了一個新的 Domain ，名為「 ahan123.tw」，也就是「阿翰 123」，阿翰是我的小名，而「 123 」代表的是，任何學習都是從基礎開始，最初開始的頭一、二、三步最為重要，如果站穩了，往後的成長將會更為順利，這就是我命名這個 Domain 的由來。</p><hr><p>● 課程網址：<a href="https://courses.hexschool.com/p/vue">https://courses.hexschool.com/p/vue</a></p><p>● 上課網址(需登入)：<a href="https://courses.hexschool.com/courses/enrolled/670031">https://courses.hexschool.com/courses/enrolled/670031</a></p><h1 id="課程資源"><a href="#課程資源" class="headerlink" title="課程資源"></a>課程資源</h1><ul><li>課程練習 API 申請：<a href="https://vue-course-api.hexschool.io/">https://vue-course-api.hexschool.io/</a></li><li>登入及驗證 API 說明：<a href="https://github.com/hexschool/vue-course-api-wiki/wiki/%E7%99%BB%E5%85%A5%E5%8F%8A%E9%A9%97%E8%AD%89">https://github.com/hexschool/vue-course-api-wiki/wiki/登入及驗證</a></li><li>進度 Commit(有問題可看老師的代碼)：<a href="https://github.com/hexschool/vue-course-api-wiki/wiki/%E9%80%B2%E5%BA%A6-Commit">https://github.com/hexschool/vue-course-api-wiki/wiki/進度-Commit</a></li><li>課程部分模板：<a href="https://github.com/hexschool/vue-course-api-wiki/wiki/%E8%AA%B2%E7%A8%8B%E9%83%A8%E5%88%86%E6%A8%A1%E6%9D%BF">https://github.com/hexschool/vue-course-api-wiki/wiki/課程部分模板</a></li><li>Vue API 課程補充說明：<a href="https://paper.dropbox.com/doc/Vue-API-28OrjdvBouPMjspZUM7h7">https://paper.dropbox.com/doc/Vue-API-28OrjdvBouPMjspZUM7h7</a></li></ul><h1 id="其他資源"><a href="#其他資源" class="headerlink" title="其他資源"></a>其他資源</h1><ul><li>Bootstrap 5 文件：<a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/">https://getbootstrap.com/docs/5.0/getting-started/introduction/</a></li><li>Bootstrap Examples：<a href="https://getbootstrap.com/docs/5.0/examples/">https://getbootstrap.com/docs/5.0/examples/</a></li></ul>]]></content>
+    <content type="html"><![CDATA[<p>本欄目是紀錄我學習「六角學院」的「Vue出一個電商網站」線上課程的過程，僅包含實做電商的部分。</p><p>學習的過程用文字記錄下來，除了可以做為備忘以外，最重要的是可以藉由整理的過程，條理自己已經學到的東西，如果可以同時發表在部落格，更會因為要對別人說明而寫得清楚，對固化自己的學習內容更加有幫助。</p><span id="more"></span><p>以前我學習課程沒有紀錄筆記的習慣，後來發現面對簡單的課程沒有太大的問題，但是如果遇到比較複雜的內容，就容易記了又忘，或不停踩著已經踩過的雷，從長遠來看，不寫筆記反而才是事倍功半。</p><p>為了能夠發表在部落格上，我特地學習了 Hexo ，將部落格架設在 Github 上，並申請了一個新的 Domain ，名為「 ahan123.tw」，也就是「阿翰 123」，阿翰是我的小名，而「 123 」代表的是，任何學習都是從基礎開始，最初開始的頭一、二、三步最為重要，如果站穩了，往後的成長將會更為順利，這就是我命名這個 Domain 的由來。</p><hr><p>● 課程網址：<a href="https://courses.hexschool.com/p/vue">https://courses.hexschool.com/p/vue</a></p><p>● 上課網址(需登入)：<a href="https://courses.hexschool.com/courses/enrolled/670031">https://courses.hexschool.com/courses/enrolled/670031</a></p><h1 id="課程資源"><a href="#課程資源" class="headerlink" title="課程資源"></a>課程資源</h1><ul><li>課程練習 API 申請：<a href="https://vue-course-api.hexschool.io/">https://vue-course-api.hexschool.io/</a></li><li>登入及驗證 API 說明：<a href="https://github.com/hexschool/vue-course-api-wiki/wiki/%E7%99%BB%E5%85%A5%E5%8F%8A%E9%A9%97%E8%AD%89">https://github.com/hexschool/vue-course-api-wiki/wiki/登入及驗證</a></li><li>進度 Commit(有問題可看老師的代碼)：<a href="https://github.com/hexschool/vue-course-api-wiki/wiki/%E9%80%B2%E5%BA%A6-Commit">https://github.com/hexschool/vue-course-api-wiki/wiki/進度-Commit</a></li><li>課程部分模板：<a href="https://github.com/hexschool/vue-course-api-wiki/wiki/%E8%AA%B2%E7%A8%8B%E9%83%A8%E5%88%86%E6%A8%A1%E6%9D%BF">https://github.com/hexschool/vue-course-api-wiki/wiki/課程部分模板</a></li><li>Vue API 課程補充說明：<a href="https://paper.dropbox.com/doc/Vue-API-28OrjdvBouPMjspZUM7h7">https://paper.dropbox.com/doc/Vue-API-28OrjdvBouPMjspZUM7h7</a></li></ul><h1 id="其他資源"><a href="#其他資源" class="headerlink" title="其他資源"></a>其他資源</h1><ul><li>Bootstrap 5 文件：<a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/">https://getbootstrap.com/docs/5.0/getting-started/introduction/</a></li><li>Bootstrap Examples：<a href="https://getbootstrap.com/docs/5.0/examples/">https://getbootstrap.com/docs/5.0/examples/</a></li></ul>]]></content>
     
     
-      
-      
     <summary type="html">&lt;p&gt;本欄目是紀錄我學習「六角學院」的「Vue出一個電商網站」線上課程的過程，僅包含實做電商的部分。&lt;/p&gt;
-&lt;p&gt;學習的過程用文字記錄下來，除了可以做為備忘以外，最重要的是可以藉由整理的過程，條理自己已經學到的東西，如果可以同時發表在部落格，更會因為要對別人說明而寫得清楚，對固</summary>
-      
+&lt;p&gt;學習的過程用文字記錄下來，除了可以做為備忘以外，最重要的是可以藉由整理的過程，條理自己已經學到的東西，如果可以同時發表在部落格，更會因為要對別人說明而寫得清楚，對固化自己的學習內容更加有幫助。&lt;/p&gt;</summary>
     
     
     
