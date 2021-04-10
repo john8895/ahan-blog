@@ -20,20 +20,22 @@
     var CONFIG = {"hostname":"www.ahan123.tw","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="安裝1$ hexo init [folder]  如果沒有指定，會在目前資料夾建立網站">
+  <meta name="description" content="&amp;#x6B65;&amp;#x9A5F;&amp;#x5099;&amp;#x5FD8; &amp;#x8907;&amp;#x88FD;&amp;#x5F8C;&amp;#x53F0;&amp;#x7248;&amp;#x578B; CSS&amp;#x3001;HTML &amp;#x589E;&amp;#x52A0;Dashboard.vue &amp;#x65B0;&amp;#x589E; Dashboard &amp;#x8DEF;&amp;#x7531;&amp;#xFF0C;&amp;#x9700;&amp;#x9A57;&amp;#x8B">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hexo 基本操作">
-<meta property="og:url" content="https://www.ahan123.tw/2021/04/10/2021-04-10-Hexo-basic/index.html">
+<meta property="og:title" content="05-套用 Bootstrap Dashboard 版型">
+<meta property="og:url" content="https://www.ahan123.tw/2021/04/10/bootstrap-dashboard/index.html">
 <meta property="og:site_name" content="程式阿翰部落格">
-<meta property="og:description" content="安裝1$ hexo init [folder]  如果沒有指定，會在目前資料夾建立網站">
+<meta property="og:description" content="&amp;#x6B65;&amp;#x9A5F;&amp;#x5099;&amp;#x5FD8; &amp;#x8907;&amp;#x88FD;&amp;#x5F8C;&amp;#x53F0;&amp;#x7248;&amp;#x578B; CSS&amp;#x3001;HTML &amp;#x589E;&amp;#x52A0;Dashboard.vue &amp;#x65B0;&amp;#x589E; Dashboard &amp;#x8DEF;&amp;#x7531;&amp;#xFF0C;&amp;#x9700;&amp;#x9A57;&amp;#x8B">
 <meta property="og:locale">
-<meta property="article:published_time" content="2021-04-10T07:02:25.000Z">
-<meta property="article:modified_time" content="2021-04-10T07:17:00.016Z">
+<meta property="og:image" content="https://www.ahan123.tw/2021/04/10/bootstrap-dashboard/2021041001.png">
+<meta property="article:published_time" content="2021-04-10T08:43:49.000Z">
+<meta property="article:modified_time" content="2021-04-10T08:46:25.452Z">
 <meta property="article:author" content="John Chen">
-<meta property="article:tag" content="hexo">
+<meta property="article:tag" content="程式阿翰, javascript, php, 前端, 後端">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://www.ahan123.tw/2021/04/10/bootstrap-dashboard/2021041001.png">
 
-<link rel="canonical" href="https://www.ahan123.tw/2021/04/10/2021-04-10-Hexo-basic/">
+<link rel="canonical" href="https://www.ahan123.tw/2021/04/10/bootstrap-dashboard/">
 
 
 <script id="page-configurations">
@@ -46,7 +48,7 @@
   };
 </script>
 
-  <title>Hexo 基本操作 | 程式阿翰部落格</title>
+  <title>05-套用 Bootstrap Dashboard 版型 | 程式阿翰部落格</title>
   
 
 
@@ -152,7 +154,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="tw">
-    <link itemprop="mainEntityOfPage" href="https://www.ahan123.tw/2021/04/10/2021-04-10-Hexo-basic/">
+    <link itemprop="mainEntityOfPage" href="https://www.ahan123.tw/2021/04/10/bootstrap-dashboard/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -165,7 +167,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          Hexo 基本操作
+          05-套用 Bootstrap Dashboard 版型
         </h1>
 
         <div class="post-meta">
@@ -176,7 +178,16 @@
               <span class="post-meta-item-text">Posted on</span>
               
 
-              <time title="Created: 2021-04-10 15:02:25 / Modified: 15:17:00" itemprop="dateCreated datePublished" datetime="2021-04-10T15:02:25+08:00">2021-04-10</time>
+              <time title="Created: 2021-04-10 16:43:49 / Modified: 16:46:25" itemprop="dateCreated datePublished" datetime="2021-04-10T16:43:49+08:00">2021-04-10</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/vue/" itemprop="url" rel="index"><span itemprop="name">vue</span></a>
+                </span>
             </span>
 
           
@@ -188,8 +199,8 @@
       </span>
       <span class="post-meta-item-text">Disqus: </span>
     
-    <a title="disqus" href="/2021/04/10/2021-04-10-Hexo-basic/#disqus_thread" itemprop="discussionUrl">
-      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2021/04/10/2021-04-10-Hexo-basic/" itemprop="commentCount"></span>
+    <a title="disqus" href="/2021/04/10/bootstrap-dashboard/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2021/04/10/bootstrap-dashboard/" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -204,29 +215,33 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h1 id="安裝"><a href="#安裝" class="headerlink" title="安裝"></a>安裝</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init [folder]</span><br></pre></td></tr></table></figure>
+        <h1 id="&#x6B65;&#x9A5F;&#x5099;&#x5FD8;"><a href="#&#x6B65;&#x9A5F;&#x5099;&#x5FD8;" class="headerlink" title="&#x6B65;&#x9A5F;&#x5099;&#x5FD8;"></a>&#x6B65;&#x9A5F;&#x5099;&#x5FD8;</h1><ol>
+<li>&#x8907;&#x88FD;&#x5F8C;&#x53F0;&#x7248;&#x578B; CSS&#x3001;HTML</li>
+<li>&#x589E;&#x52A0;Dashboard.vue</li>
+<li>&#x65B0;&#x589E; Dashboard &#x8DEF;&#x7531;&#xFF0C;&#x9700;&#x9A57;&#x8B49;</li>
+<li>&#x62C6;&#x89E3; Dashboard HTML&#xFF0C;&#x628A; Navbar&#x3001;Sidebar &#x62C6;&#x6210;&#x5143;&#x4EF6;&#xFF0C;&#x522A;&#x9664; main &#x7684;&#x5167;&#x5BB9;</li>
+<li>&#x5C07; Navbar&#x3001;Sidebar &#x8F09;&#x5165; Dashboard.vue&#xFF0C;&#x4E26;&#x653E;&#x7F6E;&#x5230;&#x6B63;&#x78BA;&#x4F4D;&#x7F6E;&#x3002;</li>
+<li>&#x5EFA;&#x7ACB;&#x5DE2;&#x72C0;&#x8DEF;&#x7531;<span id="more"></span>
+&#x4FEE;&#x6539;&#x5B8C;&#x770B;&#x7D50;&#x679C;&#xFF0C;&#x767C;&#x73FE;&#x6253;&#x4E86;&#x7DB2;&#x5740;&#x4E00;&#x76F4;&#x770B;&#x4E0D;&#x5230; main &#x7684; 123 &#xFF0C;&#x6700;&#x5F8C;&#x624D;&#x767C;&#x73FE;&#x56E0;&#x70BA;&#x662F;&#x5DE2;&#x72C0;&#x8DEF;&#x7531;&#xFF0C;&#x6240;&#x4EE5;&#x7DB2;&#x5740;&#x61C9;&#x8A72;&#x6253; /admin/products&#xFF0C;&#x800C;&#x6211;&#x4E00;&#x76F4;&#x4EE5;&#x70BA;&#x6253; /admin &#x5C31;&#x6703;&#x770B;&#x5230; 123&#x3002;</li>
+</ol>
+<p>&#x8F38;&#x5165;&#x6B63;&#x78BA;&#x7DB2;&#x5740;&#x5F8C;&#xFF0C;&#x53EA;&#x6703;&#x5728; F12 &#x4EE3;&#x78BC;&#x770B;&#x5230; 123&#xFF0C;&#x4F46;&#x9801;&#x9762;&#x4E0A;&#x537B;&#x6C92;&#x6709;&#x986F;&#x793A;&#xFF0C;&#x67E5;&#x4E86;&#x534A;&#x5929;&#x624D;&#x77E5;&#x9053;&#x5B83;&#x7684;HTML &#x7D50;&#x69CB;&#x6709;&#x554F;&#x984C;&#xFF0C;&#x8ACB;&#x898B;&#x5716;&#xFF1A;</p>
+<p><img src="/2021/04/10/bootstrap-dashboard/2021041001.png" alt="alt"></p>
+<p>&#x7D50;&#x69CB;&#x4E2D;&#x4F7F;&#x7528; row &#x5305;&#x4F4F; sidebar &#x8DDF; main&#xFF0C;sidebar &#x8DDF; main &#x90FD;&#x6709;&#x8A2D;&#x5B9A;&#x6B63;&#x78BA;&#x7684; col &#xFF0C;&#x770B;&#x8D77;&#x4F86;&#x6C92;&#x4EC0;&#x9EBC;&#x554F;&#x984C;&#xFF0C;&#x53EF;&#x662F; sidebar &#x8A2D;&#x4E86; class=sidebar &#xFF0C;&#x4F7F;&#x5074;&#x9078;&#x55AE; fixed &#x56FA;&#x5B9A;&#x5728;&#x5DE6;&#x65B9;&#xFF0C;&#x4EE5;&#x81F4;&#x65BC;&#x812B;&#x96E2;&#x4E86; row &#x7684; flex box &#xFF0C;&#x56E0;&#x6B64; main &#x5C31;&#x5F9E; row &#x7684;&#x6700;&#x5DE6;&#x65B9;&#x958B;&#x59CB;&#x986F;&#x793A;&#xFF0C;&#x800C;&#x4E0D;&#x662F;&#x6392;&#x5217;&#x5728; sidebar &#x4E4B;&#x5F8C;&#x3002;</p>
+<p>&#x4FEE;&#x6B63;&#x7684;&#x65B9;&#x6CD5;&#x5C31;&#x662F;&#x628A;&#x5074;&#x9078;&#x55AE;&#x7684; sidebar class &#x6216;&#x662F; fixed &#x5C6C;&#x6027;&#x62FF;&#x6389;&#xFF0C;sidebar &#x8207; main &#x7684;&#x6392;&#x5217;&#x5C31;&#x6703;&#x6B63;&#x5E38;&#xFF0C;&#x9801;&#x9762;&#x4E0A;&#x4E5F;&#x770B;&#x5F97;&#x5230; 123 &#x4E86;&#x3002;</p>
+<p>&#x8AB2;&#x7A0B;&#x7684;&#x89E3;&#x6C7A;&#x65B9;&#x6CD5;&#x8F03;&#x7C21;&#x55AE;&#xFF0C;&#x662F;&#x7E2E;&#x5C0F;&#x5074;&#x908A;&#x6B04;&#x7684; col &#x5BEC;&#x5EA6;&#xFF0C;&#x518D;&#x589E;&#x52A0; main &#x7684;&#x5DE6;&#x53F3;&#x908A;&#x8DDD; px-4&#xFF0C;&#x4FEE;&#x6539;&#x65B9;&#x6CD5;&#x5982;&#x4E0B;&#xFF1A;</p>
+<p>&#x5C07;&#x9019;&#x884C; ms-sm-auto &#x8207; px-md-4</p>
+<p>Dashboard.vue</p>
+<figure class="highlight jsx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;main <span class="class"><span class="keyword">class</span></span>=<span class="string">&quot;col-md-9 ms-sm-auto col-lg-10 px-md-4&quot;</span>&gt;</span><br></pre></td></tr></table></figure>
 
-<p>如果沒有指定，會在目前資料夾建立網站</p>
-<span id="more"></span>
-<h1 id="新增文章"><a href="#新增文章" class="headerlink" title="新增文章"></a>新增文章</h1><figure class="highlight jsx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo <span class="keyword">new</span> &lt;postName&gt;</span><br></pre></td></tr></table></figure>
+<p>&#x6539;&#x70BA;</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">main</span> <span class="attr">class</span>=<span class="string">&quot;col-md-9 ml-sm-auto col-lg-10 px-4&quot;</span>&gt;</span></span><br></pre></td></tr></table></figure>
 
-<h1 id="產生靜態檔案"><a href="#產生靜態檔案" class="headerlink" title="產生靜態檔案"></a>產生靜態檔案</h1><p>會產生 public 目錄，如果執行 <code>hexo deploy</code> 部署，就會將這個目錄底下的內容上傳。</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br><span class="line">或</span><br><span class="line">$ hexo g</span><br></pre></td></tr></table></figure>
+<p>&#x5C07;&#x9019;&#x884C;&#x7684; col-md-3</p>
+<p>Sidebar.vue</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">nav</span> <span class="attr">id</span>=<span class="string">&quot;sidebarMenu&quot;</span> <span class="attr">class</span>=<span class="string">&quot;col-md-3 col-lg-2 d-md-block bg-light sidebar collapse&quot;</span>&gt;</span></span><br></pre></td></tr></table></figure>
 
-<h1 id="啟動本機伺服器"><a href="#啟動本機伺服器" class="headerlink" title="啟動本機伺服器"></a>啟動本機伺服器</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br><span class="line">或</span><br><span class="line">$ hexo s</span><br></pre></td></tr></table></figure>
-
-<h1 id="部署網站"><a href="#部署網站" class="headerlink" title="部署網站"></a>部署網站</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br><span class="line">或</span><br><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>
-
-<p>清除快取檔案(db.json)，並刪除已產生的靜態檔案(public)</p>
-<p>如果發現任何修改都不生效，可以執行這個指令。</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br></pre></td></tr></table></figure>
-
-<h1 id="🌎-Resources"><a href="#🌎-Resources" class="headerlink" title="🌎  Resources"></a>🌎  Resources</h1><ul>
-<li>參考網址：<a target="_blank" rel="noopener" href="https://wst24365888.github.io/hexo-site/">https://wst24365888.github.io/hexo-site/</a></li>
-<li>官方指令：<a target="_blank" rel="noopener" href="https://hexo.io/zh-tw/docs/commands.html#init">https://hexo.io/zh-tw/docs/commands.html#init</a></li>
-<li>寫作：<a target="_blank" rel="noopener" href="https://hexo.io/zh-tw/docs/tag-plugins">https://hexo.io/zh-tw/docs/tag-plugins</a></li>
-</ul>
-
+<p>&#x6539;&#x70BA; col-md-2</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">nav</span> <span class="attr">id</span>=<span class="string">&quot;sidebarMenu&quot;</span> <span class="attr">class</span>=<span class="string">&quot;col-md-2 col-lg-2 d-md-block bg-light sidebar collapse&quot;</span>&gt;</span></span><br></pre></td></tr></table></figure>
     </div>
 
     
@@ -234,9 +249,6 @@
     
 
       <footer class="post-footer">
-          <div class="post-tags">
-              <a href="/tags/hexo/" rel="tag"># hexo</a>
-          </div>
 
         
 
@@ -244,13 +256,10 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2021/04/10/2021-04-10-hexo-intro/" rel="prev" title="Hexo 前言">
-      <i class="fa fa-chevron-left"></i> Hexo 前言
+    <a href="/2021/04/10/login-auth-vue-router/" rel="prev" title="04-驗證登入及 Vue Router 的配置">
+      <i class="fa fa-chevron-left"></i> 04-驗證登入及 Vue Router 的配置
     </a></div>
-      <div class="post-nav-item">
-    <a href="/2021/04/10/import-bootstrap/" rel="next" title="import bootstrap">
-      import bootstrap <i class="fa fa-chevron-right"></i>
-    </a></div>
+      <div class="post-nav-item"></div>
     </div>
       </footer>
     
@@ -316,7 +325,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%AE%89%E8%A3%9D"><span class="nav-number">1.</span> <span class="nav-text">安裝</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%96%B0%E5%A2%9E%E6%96%87%E7%AB%A0"><span class="nav-number">2.</span> <span class="nav-text">新增文章</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%94%A2%E7%94%9F%E9%9D%9C%E6%85%8B%E6%AA%94%E6%A1%88"><span class="nav-number">3.</span> <span class="nav-text">產生靜態檔案</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%95%9F%E5%8B%95%E6%9C%AC%E6%A9%9F%E4%BC%BA%E6%9C%8D%E5%99%A8"><span class="nav-number">4.</span> <span class="nav-text">啟動本機伺服器</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E9%83%A8%E7%BD%B2%E7%B6%B2%E7%AB%99"><span class="nav-number">5.</span> <span class="nav-text">部署網站</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%F0%9F%8C%8E-Resources"><span class="nav-number">6.</span> <span class="nav-text">🌎  Resources</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#&#x6B65;&#x9A5F;&#x5099;&#x5FD8;"><span class="nav-number">1.</span> <span class="nav-text">&amp;#x6B65;&amp;#x9A5F;&amp;#x5099;&amp;#x5FD8;</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -330,7 +339,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">6</span>
+          <span class="site-state-item-count">8</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -439,9 +448,9 @@
 </script>
 <script>
   var disqus_config = function() {
-    this.page.url = "https://www.ahan123.tw/2021/04/10/2021-04-10-Hexo-basic/";
-    this.page.identifier = "2021/04/10/2021-04-10-Hexo-basic/";
-    this.page.title = "Hexo 基本操作";
+    this.page.url = "https://www.ahan123.tw/2021/04/10/bootstrap-dashboard/";
+    this.page.identifier = "2021/04/10/bootstrap-dashboard/";
+    this.page.title = "05-套用 Bootstrap Dashboard 版型";
     };
   NexT.utils.loadComments(document.querySelector('#disqus_thread'), () => {
     if (window.DISQUS) {
